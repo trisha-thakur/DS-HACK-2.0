@@ -15,7 +15,9 @@ export default function App() {
     { label: 'Tracks', path: '#tracks' },
     { label: 'Prizes', path: '#prizes' },
     { label: 'Sponsors', path: '#sponsors' },
-    { label: 'Contact Us', path: '#contact' },
+    { label: 'Schedule', path: '#schedule' },
+    { label: 'FAQ', path: '#faq' },
+    // { label: 'Contact Us', path: '#contact' },
   ];
 
   return (
@@ -48,7 +50,7 @@ export default function App() {
         <Prizes/>
         <Schedule/>
         <FAQ/>
-        <Cheif/>
+        {/* <Cheif/> */}
         <Sponsors/>
         <Footer/>
       </div> 
